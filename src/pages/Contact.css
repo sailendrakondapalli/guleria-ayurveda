@@ -138,6 +138,9 @@
   background: #1ebe5d !important;
   box-shadow: 0 8px 24px rgba(37, 211, 102, 0.45) !important;
 }
+
+/* Form */
+.contact-form {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -173,40 +176,13 @@
 .form-group input:focus,
 .form-group textarea:focus {
   border-color: var(--green-mid);
-  box-shadow: 0 0 0 3px rgba(74, 124, 63, 0.1);
+  box-shadow: 0 0 0 3px rgba(45, 106, 79, 0.12);
 }
 
 .contact-form__submit {
   width: 100%;
   padding: 16px !important;
   font-size: 1rem !important;
-}
-
-/* Success */
-.contact-success {
-  text-align: center;
-  padding: 48px 32px;
-  background: var(--beige);
-  border-radius: 8px;
-  border: 1px solid var(--beige-dark);
-}
-
-.contact-success span {
-  font-size: 3rem;
-  display: block;
-  margin-bottom: 16px;
-}
-
-.contact-success h3 {
-  font-size: 1.6rem;
-  color: var(--green-dark);
-  margin-bottom: 12px;
-}
-
-.contact-success p {
-  color: var(--text-mid);
-  margin-bottom: 24px;
-  font-size: 0.93rem;
 }
 
 /* Map */
